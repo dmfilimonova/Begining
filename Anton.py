@@ -1,9 +1,8 @@
-n = int(input())
-strings = []
-for i in range(n):
-    strings.append(input())
+for i in range(int(input())):
+    s = input()
+    for j in range(len(s)):
+        if s[j] in 'anton':
 
-def anton(string):
-    flag
-    for i in range(len(string)):
-        if string[i] in 'anton':
+
+
+
