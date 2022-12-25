@@ -1,6 +1,5 @@
 num = int(input())
 
-
 def transfer_to_ten(num):
     new_n = num
     count = 0

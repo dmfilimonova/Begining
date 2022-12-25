@@ -1,5 +1,8 @@
 n, m = int(input()), int(input())
 
-mult = [[int(r * c) for i in ] for r in range(n) for c in range(m)]
+mult = [[int(r * c) for r in range(m)] for c in range(n)]
 
-print(mult)
+for i in range(len(mult)):
+    print(*mult[i], end= '\n')
+
+

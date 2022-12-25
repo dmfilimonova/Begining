@@ -1,10 +1,6 @@
 n = int(input())
-matrix = [[int(i) for i in input().split()] for j in range(n)]
-max_ = -1000
-for i in range(n):
-    for j in range(n):
-        if i >= j and i <= n - 1 - j or i <= j and i >= n - 1 - j:
-            if max_ < int(matrix[i][j]):
-                max_ = int(matrix[i][j])
-
-print(max_)
+z1 = complex(input())
+z2 = complex(input())
+z1_c = z1.conjugate()
+z2_c = z2.conjugate()
+print(z1**n + z2**n + z1_c**n + z2_c**(n+ 1))

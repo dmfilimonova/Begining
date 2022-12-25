@@ -5,9 +5,4 @@ for i in range(n):
     for j in range(n):
         if i >= j and max_ < matrix[i][j]:
             max_ = matrix[i][j]
-
 print(max_)
-
-
-
-
